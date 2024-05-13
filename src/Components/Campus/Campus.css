@@ -1,0 +1,49 @@
+.campus{
+    margin: 60px auto;
+    width: 90%;
+    text-align: center;
+}
+
+.campus .galleries{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.campus .galleries img{
+    width: 23%;
+    border-radius: 10px;
+}
+
+.campus .btn.dark-btn{
+    background: #212EA0;
+    color: #fff;
+    padding: 12px;
+}
+
+/* Media query */
+@media (max-width: 768px){
+    .campus{
+        margin: 40px auto 50px auto;
+    }
+
+    .campus .galleries{
+        flex-wrap: wrap;
+        margin-bottom: 0;
+    }
+
+    .campus .galleries img{
+        width: 48%;
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 450px){
+    .campus{
+        margin: 20px auto 30px auto;
+    }
+    .campus .galleries{
+        margin-bottom: 0px;
+    }
+}

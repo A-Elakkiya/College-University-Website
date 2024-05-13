@@ -1,0 +1,24 @@
+.title {
+    text-align: center;
+    color: #212EA0;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.title h2 {
+    font-size: 32px;
+    margin-top: 5px;
+    color: #000F38;
+}
+
+
+/* Media query */
+@media (max-width: 450px){
+    .title {
+        font-size: 12px;
+    }
+    .title h2 {
+        font-size: 18px;
+    }
+}
+
